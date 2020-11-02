@@ -1,0 +1,183 @@
+@charset "utf-8"; 
+                          
+body {                                     /* 文書全体 */
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  color: #333333;
+  font-size: 15px
+}
+
+h1{                                        /* h1 */
+  background-color: burlywood;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+
+img{                                       /* 画像 */
+    vertical-align:bottom;
+    text-align: center
+}
+
+a img:hover{
+    opacity: 0.8;
+}
+
+a{                                         /* ハイパーリンク全般 */
+    text-decoration: none;
+}
+
+a:hover{                                   /* ハイパーリンク全般のカーソル乗時 */
+    text-decoration: underline;
+}
+
+ul{                                        /* リスト全般 */
+  margin:0;
+  padding:0;
+}
+
+header{                                    /* ヘッダー部分 */
+  background-color: #FFE59F; 
+  font-size: 20px;
+}
+
+.logo{
+  float: center;
+  width: 960px;
+  margin: 0 auto;
+}
+    
+.global-nav {                              /* 上部リスト */
+  float: center;
+  width: 960px;
+  margin: 20px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.global-nav li {                           /* 上部リストの各項目 */
+  float: left;
+  margin: 0 10px;
+  font-size: 20px;
+  list-style: none;
+}
+ 
+.btn-square{                                /* 上部リストのボタン */
+  background-color: #FFE59F;
+  font-size:20px;
+  font-weight: bold;
+  font-family: YuMincho;
+  width: 165px;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 20;
+  border-bottom:solid 4px #cc9966;
+  border-radius: 5px;
+}
+
+
+.content{                                   /* コンテンツ全般 */
+    width: 960px;
+    float: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.main{                                      /* メインコンテンツ */
+    background-color: cornsilk;
+    width: 680px;
+    clear: both;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px 10px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-family: YuMincho;
+}
+
+.link {
+    font-size: 18px;  
+    text-align: center
+    font-family: YuMincho;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+.main2{                                      /* メインコンテンツ */
+    background-color: cornsilk;
+    width: 960px;
+    clear: both;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px 10px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-family: YuMincho;
+}
+
+
+
+.sidebar{                                   /* 右側コンテンツ */
+    background-color: #FDE8B6;
+    width: 230px;
+    height: 400px;
+    margin: 0 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 3px;
+    border-color: #777777;
+}
+
+.twitter-timeline {
+    float:right
+    width: 200px;
+    padding: 200px;
+}
+
+.sidebar li {                             /* 右側リストの各項目 */
+  font-size: 18px;
+  list-style: none;
+}
+
+.btn-sidebar{                              /* 右側リストのボタン */
+    font-weight: bold;
+    font-family: YuMincho;
+    width: 195px;
+    display: block;
+    text-align: center;
+}
+
+dammy{                                      /* メインコンテンツ */
+    clear: both;
+    margin: 0;
+    margin-top: 20px;
+    padding: 260px 0px;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    font-family: YuMincho;
+}
+
+footer {                                   /* フッター部分 */
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;    
+  padding: 20px 20px;
+  background-color: #767671;  
+  float:bottom;
+  clear: both;
+}
